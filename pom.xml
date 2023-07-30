@@ -126,8 +126,25 @@
     		<version>1.3</version>
     		<scope>test</scope>
 		</dependency>
-    </dependencies>
+         </dependencies>
+             <distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>shivani-release</name>
+	      <url>http://3.109.144.202:8081/repository/shivani-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>shivani-snapshot</name>
+	      <url>http://3.109.144.202:8081/repository/shivani-Snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
     <build>
+	
+
         <plugins>
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>
