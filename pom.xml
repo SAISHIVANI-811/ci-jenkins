@@ -138,7 +138,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>shivani-snapshot</name>
-	      <ur>http://13.233.165.3:8081/repository/shivani-Snapshot/</url>
+	      <url>http://13.233.165.3:8081/repository/shivani-Snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
