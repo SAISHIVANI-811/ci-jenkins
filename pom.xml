@@ -132,13 +132,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>shivani-release</name>
-	      <url>http://13.233.165.3:8081/repository/shivani-release/</url>
+	      <url>http://3.88.222.51:8081/repository/shivani-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>shivani-snapshot</name>
-	      <url>http://13.233.165.3:8081/repository/shivani-Snapshot/</url>
+	      <url>http://3.88.222.51:8081/repository/shivani-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
