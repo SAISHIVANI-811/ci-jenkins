@@ -22,7 +22,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
 	<log4j.version>1.2.17</log4j.version>
-	<sonar.host.url>http://3.86.88.153:9000/</sonar.host.url>
+	<sonar.host.url>http://18.212.24.118:9000/</sonar.host.url>
 	<sonar.login>admin</sonar.login>
 	<sonar.password>shivudu</sonar.password> 
 	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -132,13 +132,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>shivani-release</name>
-	      <url>http://3.88.222.51:8081/repository/shivani-release/</url>
+	      <url>http://54.172.79.184:8081/repository/shivani-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>shivani-snapshot</name>
-	      <url>http://3.88.222.51:8081/repository/shivani-snapshot/</url>
+	      <url>http://54.172.79.184:8081/repository/shivani-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
